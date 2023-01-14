@@ -5,10 +5,11 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 
 
 ## Data Resources and Visualisation Environments 
-| Tool                  | Code                                                  | Reference                                                 | Note(s)                                                       |
-| -------------         | -------------                                         | -------------                                             | -------------                                                 |
-
-| Trips-Viz             |  [Code](https://github.com/riboseqorg/Trips-Viz)      |  [Reference](https://pubmed.ncbi.nlm.nih.gov/33950201/)   | Written in Python; Browser only                               |
+| Tool                  | Code                                                  | Reference                                                 | Note(s)                                                                       |
+| -------------         | -------------                                         | -------------                                             | -------------                                                                 |
+| Trips-Viz             |  [Code](https://github.com/riboseqorg/Trips-Viz)      |  [Reference](https://doi.org/10.1093/nar/gkab323)         | Written in Python; Browser only; [Link](https://trips.ucc.ie)                 |
+| GWIPS-viz             |  [Code](https://github.com/riboseqorg/GWIPS-viz)      |  [Reference](https://doi.org/10.1093/nar/gkt1035)         | Based on UCSC Genome Browser; Browser only; [Link](https://gwips.ucc.ie)      |
+| RiboCrypt             |  [Code](https://github.com/m-swirski/RiboCrypt)       |  [Reference]()                                            | Written in R; Available in Bioc                                               |
 
 
 ## Data Processing 
@@ -41,10 +42,6 @@ Note: Many more tools carry out QC as part of their functionality. Above are tho
 
 
 ## Rough 
-
-**Template:**
-
-Tool   [Code]()  [Reference]()
 
 #### Unsorted list:
 - RiboProfiling
