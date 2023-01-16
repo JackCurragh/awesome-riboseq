@@ -60,10 +60,12 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 Note: Many more tools carry out QC as part of their functionality. Above are those that have individual QC specific modules (that I have seen so far). 
 
 ## Offset Determination
-| Tool                  | Code                                                  | Reference                                                 | Note(s)                                                       |
-| -------------         | -------------                                         | -------------                                             | -------------                                                 |
-|                       |  [Code]()                                             |   [Reference]()                                             |                                                             |
-
+| Tool                  | Code                                                                  | Reference                                                                     | Note(s)                                                       |
+| -------------         | -------------                                                         | -------------                                                                 | -------------                                                 |
+| Ribodeblur            |  [Code](https://github.com/Kingsford-Group/ribodeblur)                |   [Reference](https://doi.org/10.1089/cmb.2016.0147)                          | Written in Python                                             |
+| RiboProP              |  [Code](http://bioserv.mps.ohio-state.edu/RiboProP/)                  |   [Reference](https://doi.org/10.1093/bioinformatics/bty854)                  | Written in Julia; MNase Offset detection                      |
+| RiboWaltz             |  [Code](https://github.com/LabTranslationalArchitectomics/riboWaltz)  |   [Reference](https://doi.org/10.1371/journal.pcbi.1006169)                   | Written in R; Available in Bioconda                           |
+| Integer Programming   |  [Code](https://github.com/nabeel-bioinfo/Asite_IP_method)            |   [Reference](https://doi.org/10.1038/s41598-019-42348-x)                     | Written in Python; Available in Bioconda                           |
 
 ## ORF Calling
 | Tool                  | Code                                                  | Reference                                                 | Note(s)                                                       |
@@ -94,6 +96,7 @@ Note: Many more tools carry out QC as part of their functionality. Above are tho
 - Ribofy (https://github.com/ncrnalab/ribofy)
 - orfRater
 - RiboDiPa
+- scikit-ribo
 
 [L](http://rnainformatics.org.cn/RiboToolkit/links.php)
 
@@ -115,3 +118,5 @@ RiboWave	Detection of translated ORFs based on spectral analysis of Ribo-Seq sig
 Rp-Bp	Bayesian approach for detecting translated ORFs.	https://github.com/dieterich-lab/rp-bp	Malone et al. (2017)
 SPECtre	Detection of translated ORFs based on spectral analysis of Ribo-Seq signal	https://github.com/mills-lab/spectre	Chun et al. (2016)
 uORF-seqr	Regression-based detection of translated ORFs	https://github.com/pspealman/uorfseqr	Spealman et al. (2018)
+
+
