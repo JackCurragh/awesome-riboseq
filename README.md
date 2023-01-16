@@ -65,20 +65,47 @@ Note: Many more tools carry out QC as part of their functionality. Above are tho
 | Ribodeblur            |  [Code](https://github.com/Kingsford-Group/ribodeblur)                |   [Reference](https://doi.org/10.1089/cmb.2016.0147)                          | Written in Python                                             |
 | RiboProP              |  [Code](http://bioserv.mps.ohio-state.edu/RiboProP/)                  |   [Reference](https://doi.org/10.1093/bioinformatics/bty854)                  | Written in Julia; MNase Offset detection                      |
 | RiboWaltz             |  [Code](https://github.com/LabTranslationalArchitectomics/riboWaltz)  |   [Reference](https://doi.org/10.1371/journal.pcbi.1006169)                   | Written in R; Available in Bioconda                           |
-| Integer Programming   |  [Code](https://github.com/nabeel-bioinfo/Asite_IP_method)            |   [Reference](https://doi.org/10.1038/s41598-019-42348-x)                     | Written in Python; Available in Bioconda                           |
+| Integer Programming   |  [Code](https://github.com/nabeel-bioinfo/Asite_IP_method)            |   [Reference](https://doi.org/10.1038/s41598-019-42348-x)                     | Written in Python; Paper contains comparison of methods       |
+| Scikit-ribo           |  [Code](https://github.com/hanfang/scikit-ribo)                       |   [Reference](https://doi.org/10.1016/j.cels.2017.12.007)                     | Written in Python; Also estiamtes translation efficiency      |
+
+Note: Many many tools carry out offset determinations. These ones advertise it as a main feature.
 
 ## ORF Calling
-| Tool                  | Code                                                  | Reference                                                 | Note(s)                                                       |
-| -------------         | -------------                                         | -------------                                             | -------------                                                 |
-|                       |  [Code]()                                             |   [Reference]()                                             |                                                             |
+| Tool                                      | Code                                                                      | Reference                                                         | Note(s)                                                                                               |
+| -------------                             | -------------                                                             | -------------                                                     | -------------                                                                                         |
+| DeepRibo                                  |  [Code](https://github.com/Biobix/DeepRibo)                               |   [Reference](https://doi.org/10.1093/nar/gkz061)                 | Python3/PyTorch; Prokaryotes; Ribo-Seq + SD sequence                                                  |
+| RiboTricer                                |  [Code](https://github.com/smithlabcode/ribotricer)                       |   [Reference](https://doi.org/10.1093/bioinformatics/btz878)      | Python; 3' periodicity based                                                                          |
+| orfRater                                  |  [Code](https://github.com/alexfields/ORF-RATER)                          |   [Reference](https://doi.org/10.1016/j.molcel.2015.11.013)       | Python, Regression based                                                                              |
+| PreTis                                    |  None Found                                                               |   [Reference](https://doi.org/10.1371/journal.pcbi.1005170)       | No code available; Webservice; Regression based TIS                                                   |
+| PRICE                                     |  [Code](https://github.com/erhard-lab/price)                              |   [Reference](https://doi.org/10.1038%2Fnmeth.4631)               | Available as part of Gedi; Probablistic inference by EM                                               |
+| Proteoformer                              |  [Code](https://github.com/Biobix/proteoformer)                           |   [Reference](https://doi.org/10.1074/mcp.RA118.001218)           | ORF calling for MS validation; Python, Perl                                                           |
+| REPARATION                                |  [Code](https://github.com/Biobix/REPARATION)                             |   [Reference](https://doi.org/10.1093/nar/gkx758)                 | Reannoation of Bacterial Genomes; Perl                                                                |
+| RiboCode                                  |  [Code](https://github.com/xryanglab/RiboCode)                            |   [Reference](https://doi.org/10.1093/nar/gky179)                 | Wilcoxon Signed rank test of 3 frames; Python; On Bioconda                                            |
+| riboHMM                                   |  [Code](https://github.com/rajanil/riboHMM)                               |   [Reference](https://doi.org/10.7554/eLife.13328)                | Python2; Limits to 1 coding sequence per transcript                                                   |
+| RibORF                                    |  [Code](https://github.com/zhejilab/RibORF)                               |   [Reference](https://doi.org/10.1002/cpmb.67)                    | Perl; 3' periodicity, uniformness;                                                                    |
+| Ribosome profiling analysis framework     |  [Code](https://github.com/LUMC/ribosome-profiling-analysis-framework)    |   [Reference](http://dx.doi.org/10.1093/nar/gkv281)               | PHP, Organism must be on [Mutalyzer](https://mutalyzer.nl/)                                           |
+| RiboTaper                                 |  [Code](https://ohlerlab.mdc-berlin.de/software/RiboTaper_126/)           |   [Reference](https://doi.org/10.1038/nmeth.3688)                 | R; Multitaper analysis of triplet; Bioconda, Galaxy;                                                  |
+| Ribo-TISH                                 |  [Code](https://github.com/zhpn1024/ribotish)                             |   [Reference](https://doi.org/10.1038/s41467-017-01981-8)         | Python; TI-seq (TIS Hunter); Supports differential initiation analysis                                |
+| RiboWave                                  |  [Code](https://github.com/lulab/Ribowave)                                |   [Reference](https://doi.org/10.1093/nar/gky533)                 | R, Perl, Shell; Wavelet Transform;                                                                    |
+| Rp-Bp                                     |  [Code](https://github.com/dieterich-lab/rp-bp)                           |   [Reference](https://doi.org/10.1093/nar/gkw1350)                | Python; End-to-end pipeline; Bayesian Periodic fragment length and ribosome P-site offset Selection   |
+| SPECtre                                   |  [Code](https://github.com/mills-lab/spectre)                             |   [Reference](https://doi.org/10.1186%2Fs12859-016-1355-4)        | Python; Spectral analysis of sliding windows                                                          |
+| uORF-seqr                                 |  [Code](https://github.com/pspealman/uorfseqr)                            |   [Reference](https://doi.org/10.1101/gr.221507.117)              | R; ML-approach; Methods unclear as paper describes regression                                         |
+| uORF4u                                    |  [Code](https://github.com/GCA-VH-lab/uorf4u)                             |   [Reference](https://doi.org/10.1101/2022.10.27.514069)          | Python; Not Ribo-Seq; Conservation based; One 5' UTR at a time                                        |
+| ORFLine                                   |  [Code](https://github.com/boboppie/ORFLine)                              |   [Reference](https://doi.org/10.1093/bioinformatics/btab339)     | Shell, R, Perl, Python; End-to-end; Plastid + ORFscore                                                |
+| RiboNT                                    |  [Code](https://github.com/songbo446/RiboNT/)                             |   [Reference](https://doi.org/10.3390/life11070701)               | Python; Noise tolerence                                                                               |
+
+|                                           |  [Code]()                                                                 |   [Reference]()                                                   |                                                                                                       |
+
 
 ## ORF Databases
 | Tool                  | Code                                                  | Reference                                                 | Note(s)                                                       |
 | -------------         | -------------                                         | -------------                                             | -------------                                                 |
 | sORFs.org             |  [Code]()                                             |   [Reference]()                                             |                                                             |
 | OpenProt              |  [Code]()                                             |   [Reference]()                                             |                                                             |
-|                       |  [Code]()                                             |   [Reference]()                                             |                                                             |
+|                      |  [Code]()                                             |   [Reference]()                                             |                                                             |
 
+smProt (http://bigdata.ibp.ac.cn/SmProt/)
+nORFs.org 
 
 ## Rough 
 
@@ -87,36 +114,63 @@ Note: Many more tools carry out QC as part of their functionality. Above are tho
 
 
 #### Unsorted list:
-- Ribo-TISH (annotation)
 - Rfoot
-- Ribodeblur (offset)
-- Proteoformer (annotation)
-- DeepRibo (annotation)
 - RiboZINB (translated isoform)
 - Ribofy (https://github.com/ncrnalab/ribofy)
-- orfRater
 - RiboDiPa
-- scikit-ribo
+- RiboMiner
+- RiboPlot (https://github.com/vimalkvn/riboplot)
+- PausePred
+- RUST 
+- RiboChat
+- Riboconsensus (https://github.com/pechmannlab/riboconsensus)
+- RPiso 
+- RiboA (https://doi.org/10.1186/s12859-021-04068-w)
+- RiboPlotR
+- DeltaTE Detection of translationally regulated genes by integrative analysis of Ribo-seq and RNA-seq data. Current Protocols in Molecular Biology, 129, e108. doi.org/10.1002/cpmb.108
+- RiboShape (https://github.com/lulab/Riboshape)
+- RiboDoc (https://github.com/equipeGST/RiboDoc)
+- RiboLog (https://github.com/goodarzilab/Ribolog)
+- RiboCalc (https://github.com/gao-lab/RiboCalc) (https://doi.org/10.1093/bib/bbab483)
+- RiboFootprintR (https://github.com/celalp/ribofootprintR)
+- mRibo (https://github.com/dgelsin/mRibo)
+- RiboGraph (https://github.com/ribosomeprofiling/ribograph)
+- RiboAnalyzer (https://github.com/sherkinglee/RiboAnalyzer)
+- RiboMIMO (https://doi.org/10.1371/journal.pcbi.1008842) (https://github.com/tiantz17/RiboMIMO)
+- RiboScore (James Keane) (https://github.com/keanejm/RiboScore)
+- RiboReport (https://github.com/RickGelhausen/RiboReport)
+- RiboFitter (https://github.com/TanenbaumLab/RiboFitter)
+- RiboSeeker (https://github.com/nzhang89/RiboSeeker)
+- HRIBO (https://github.com/RickGelhausen/HRIBO)
+- Ribo-Seq Simulation (https://github.com/eds35016/5-Ribo-seq-Modeling-Scripts)
+- DeepShape (https://github.com/cuihf06/DeepShape)
+- AltORFev (https://pubmed.ncbi.nlm.nih.gov/28039164/)
+- RCSU RS (https://doi.org/10.1093/dnares/dsw062)
+- ROSE - stalling (https://doi.org/10.1016/j.cels.2017.08.004)
+- RiboRL (https://github.com/Liuxg16/RiboRL)
+- Diricore (https://doi.org/10.1038/nature16982)
 
-[L](http://rnainformatics.org.cn/RiboToolkit/links.php)
 
 
-DeepRibo	Detection of translated ORFs in bacterial genomes	https://github.com/Biobix/DeepRibo	Clauwaert et al. (2019)
-orfRater	Detection of translated ORFs based on linear regression	https://github.com/alexfields/ORF-RATER	Fields et al. (2015)
-ORFScore	Scoring translated ORFs based on triplet periodicity	https://rdrr.io/bioc/ORFik/man/orfScore.html	Bazzini et al. (2014)
-PreTis	Detection of translation initiation starts based on linear regression	http://service.bioinformatik.uni-saarland.de/pretis/	Reuter, Biehl, Koch, and Helms (2016)
-PRICE	Detection of translated ORFs using EM algorithm	https://github.com/erhard-lab/price	Erhard et al. (2018)
-Proteoformer	Detection of translated ORFs with support from mass-spec data	https://github.com/Biobix/proteoformer	Crappe et al. (2015); Verbruggen et al. (2019)
-REPARATION	Detection of translated ORFs in bacterial genomes	https://github.com/Biobix/REPARATION	Ndah et al. (2017)
-RiboCode	Detection of translated ORFs based on triplet periodicity	https://github.com/xryanglab/RiboCode	Xiao et al. (2018)
-riboHMM	HMM-based detection of translated ORFs	https://github.com/rajanil/riboHMM	Raj et al. (2016)
-RibORF	SVM-based identification of translated ORFs	https://github.com/zhejilab/RibORF	Ji, Song, Regev, and Struhl (2015)
-Ribosome profiling analysis framework	Detection of translated ORFs based on triplet periodicity	https://github.com/LUMC/ribosome-profiling-analysis-framework	de Klerk et al. (2015)
-RiboTaper	Detection of translated ORFs based on spectral analysis of Ribo-Seq signal using multitaper	https://ohlerlab.mdc-berlin.de/software/RiboTaper_126/	Calviello et al. (2016)
-Ribo-TISH	Is able to use Ribo-Seq data enriched at starts of initiation in addition to regular Ribo-Seq	https://github.com/zhpn1024/ribotish	P. Zhang et al. (2017)
-RiboWave	Detection of translated ORFs based on spectral analysis of Ribo-Seq signal with wavelet transformation	https://github.com/lulab/Ribowave	Xu et al. (2018)
-Rp-Bp	Bayesian approach for detecting translated ORFs.	https://github.com/dieterich-lab/rp-bp	Malone et al. (2017)
-SPECtre	Detection of translated ORFs based on spectral analysis of Ribo-Seq signal	https://github.com/mills-lab/spectre	Chun et al. (2016)
-uORF-seqr	Regression-based detection of translated ORFs	https://github.com/pspealman/uorfseqr	Spealman et al. (2018)
 
 
+
+- Ribomap
+- ORFquant
+- ORQAS
+
+
+- Concur (codon occupancy) [Link](https://doi.org/10.1093/bioinformatics/btaa733)
+
+- STATR (pipeline) [Link](https://doi.org/10.1007/s12275-020-9536-2)
+
+
+- Bushell-Lab Pipeline (https://github.com/Bushell-lab/Ribo-seq)
+- Ohler-Lab Pipeline (https://github.com/ohlerlab/Riboseq_Pipeline)
+- Saket Choudhary Pipeline (https://github.com/saketkc/ribo-seq-snakemake)
+- Firth Lab Ribo-Seq Manual (https://github.com/AndrewFirth12/RiboseqAnalysis)
+
+- Code for scRibo-Seq paper (https://github.com/mvanins/scRiboSeq_manuscript)
+
+
+- USA's Food and Drug Administrations Ribo-Seq (https://github.com/FDA/Ribosome-Profiling)
