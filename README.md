@@ -52,7 +52,7 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 | ribosomeProfilingQC   |  [Code](https://rdrr.io/bioc/ribosomeProfilingQC/)    |  [Reference](https://doi.org/10.18129/B9.bioc.ribosomeProfilingQC)        | Written in R; Available on Bioc; Reference in Bioc link       |
 | ORFikQC               |  [Code](https://github.com/Roleren/ORFik)             |  [Reference](https://doi.org/10.1186/s12859-021-04254-w)                  | Written in R; Available on Bioc; Part of ORFik                |
 
-Note: Many more tools carry out QC as part of their functionality. Above are those that QC specific modules (that I have seen so far). 
+Note: Many more tools carry out QC as part of their functionality. Above are those that have individual QC specific modules (that I have seen so far). 
 
 ## Offset Determination
 | Tool                  | Code                                                  | Reference                                                 | Note(s)                                                       |
