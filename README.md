@@ -43,7 +43,7 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 | RiboDiff                       |  [Code](https://github.com/ratschlab/RiboDiff)                               |   [Reference](https://doi.org/10.1093/bioinformatics/btw585)  | Python2, Galaxy, [Link](https://galaxy.inf.ethz.ch/?tool_id=ribodiff), GLM        |
 | Riborex                        |  [Code](https://github.com/smithlabcode/riborex)                             |   [Reference](https://doi.org/10.1093/bioinformatics/btx047)  | Written in R; Conda installation; DEseq2, EdgeR, Voom;                            |
 | RIVET                          |  [Code](https://github.com/ruggleslab/rivet)                                 |   [Reference](https://doi.org/10.1186/s12864-018-5166-z)      | Written in R; R Shiny app; Link defunct; EdgeR/Limma                              |
-| Xtail                          |  [Code](https://github.com/xryanglab/xtail)                                 |   [Reference](https://doi.org/10.1038/ncomms11194)            | Written in R; Available in DockerHub; Probability Distribution based              |
+| Xtail                          |  [Code](https://github.com/xryanglab/xtail)                                  |   [Reference](https://doi.org/10.1038/ncomms11194)            | Written in R; Available in DockerHub; Probability Distribution based              |
 
 
 
