@@ -107,6 +107,13 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 smProt (http://bigdata.ibp.ac.cn/SmProt/)
 nORFs.org 
 
+## Misc
+| Tool                  | Code                                                  | Reference                                                 | Note(s)                                                       |
+| -------------         | -------------                                         | -------------                                             | -------------                                                 |
+| RFoot                 |  [Code](https://github.com/zhejilab/Rfoot/)           |   [Reference](https://doi.org/10.1002%2Fcpmb.66)          | Perl; Finding RNA-Protein complexes from Ribo-Seq             |
+|                       |  [Code]()                                             |   [Reference]()                                             |                                                             |
+
+
 ## Rough 
 
 **Row template:**
