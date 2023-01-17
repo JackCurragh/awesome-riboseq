@@ -98,14 +98,16 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 
 
 ## ORF Databases
-| Tool                  | Code                                                  | Reference                                                 | Note(s)                                                       |
-| -------------         | -------------                                         | -------------                                             | -------------                                                 |
-| sORFs.org             |  [Code]()                                             |   [Reference]()                                             |                                                             |
-| OpenProt              |  [Code]()                                             |   [Reference]()                                             |                                                             |
-|                      |  [Code]()                                             |   [Reference]()                                             |                                                             |
+| Tool                  | Link                                                                  | Reference                                                 | Note(s)                                                       |
+| -------------         | -------------                                                         | -------------                                             | -------------                                                 |
+| sORFs.org             |  [Link](http://www.sorfs.org/#)                                       |   [Reference](https://doi.org/10.1093/nar/gkx1130)        | ORFs Detected with Proteoformer; Pride reprocessing           |
+| OpenProt              |  [Link](https://openprot.org/p/ng/Home)                               |   [Reference](https://doi.org/10.1093/nar/gkaa1036)       | Ribo-Seq + Mass Spec; Polycistronic gene models               |
+| smProt                |  [Link](http://bigdata.ibp.ac.cn/SmProt/index.html)                   |   [Reference](https://doi.org/10.1016/j.gpb.2021.09.002)  | Small protein database rather than ORFs                       |
+| nORFs.org             |  [Link](https://norfs.org/home)                                       |   [Reference](https://doi.org/10.1038/s41525-020-00167-4) | Aggregated database of OpenProt and sORFs.org; Nice UI        |
+| uORF-db               |  [Link](https://www.compgen.uni-muenster.de/tools/uorfdb/index.pl?)   |   [Reference](https://doi.org/10.1093/nar/gkac899)        | "Literature, sequence, and variation data in a central hub"   |
+|                       |  [Link]()                                                             |   [Reference]()                                           |                                                               |
 
-smProt (http://bigdata.ibp.ac.cn/SmProt/)
-nORFs.org 
+
 
 ## Misc
 | Tool                  | Code                                                  | Reference                                                 | Note(s)                                                       |
@@ -121,8 +123,13 @@ nORFs.org
 
 
 #### Unsorted list:
-- Rfoot
 - RiboZINB (translated isoform)
+- RPiso 
+- Ribomap
+- ORFquant
+- ORQAS
+
+
 - Ribofy (https://github.com/ncrnalab/ribofy)
 - RiboDiPa
 - RiboMiner
@@ -131,7 +138,6 @@ nORFs.org
 - RUST 
 - RiboChat
 - Riboconsensus (https://github.com/pechmannlab/riboconsensus)
-- RPiso 
 - RiboA (https://doi.org/10.1186/s12859-021-04068-w)
 - RiboPlotR
 - DeltaTE Detection of translationally regulated genes by integrative analysis of Ribo-seq and RNA-seq data. Current Protocols in Molecular Biology, 129, e108. doi.org/10.1002/cpmb.108
@@ -162,9 +168,6 @@ nORFs.org
 
 
 
-- Ribomap
-- ORFquant
-- ORQAS
 
 
 - Concur (codon occupancy) [Link](https://doi.org/10.1093/bioinformatics/btaa733)
