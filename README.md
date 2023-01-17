@@ -108,6 +108,18 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 |                       |  [Link]()                                                             |   [Reference]()                                           |                                                               |
 
 
+## Isoform Level Analysis
+| Tool                  | Code                                                  | Reference                                                     | Note(s)                                                                       |
+| -------------         | -------------                                         | -------------                                                 | -------------                                                                 |
+| Ribomap               |  [Code](https://github.com/Kingsford-Group/ribomap)   |   [Reference](https://doi.org/10.1093/bioinformatics/btw085)  | C++; Salmon; Isoform level ribosome profiles based on transcript abundance    |
+| ORFquant              |  [Code](https://github.com/lcalviell/ORFquant)        |   [Reference](https://doi.org/10.1038/s41594-020-0450-4)      | R; Isoform level translation quantification of ORFs                           |
+| ORQAS                 |  [Code](https://github.com/comprna/ORQAS)             |   [Reference](https://doi.org/10.1038/s41467-020-15634-w)     | Python, Shell; Isoform level quantification extending Ribomap                 |
+| RPiso                 |  [Code](https://hub.docker.com/r/n26091225/rpiso)     |   [Reference](https://doi.org/10.1186%2Fs12859-021-04192-7)   | Perl; RSEM: Isoform level analysis                                            |
+| RiboZINB              |  [Code](https://github.com/Biobix/RiboZINB)           |   None Found                                                  | Perl, R; Identifying actively translated isoform                              |
+| DeepShape             |  [Code](https://github.com/cuihf06/DeepShape)         |   [Reference](https://doi.org/10.1186/s12859-019-3244-0)      | Python; RNA-Seq free Isoform level quantification                             |
+|                       |  [Code]()                                             |   [Reference]()                                               |                                                                               |
+
+
 
 ## Misc
 | Tool                  | Code                                                  | Reference                                                 | Note(s)                                                       |
@@ -123,11 +135,6 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 
 
 #### Unsorted list:
-- RiboZINB (translated isoform)
-- RPiso 
-- Ribomap
-- ORFquant
-- ORQAS
 
 
 - Ribofy (https://github.com/ncrnalab/ribofy)
@@ -147,16 +154,15 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 - RiboCalc (https://github.com/gao-lab/RiboCalc) (https://doi.org/10.1093/bib/bbab483)
 - RiboFootprintR (https://github.com/celalp/ribofootprintR)
 - mRibo (https://github.com/dgelsin/mRibo)
-- RiboGraph (https://github.com/ribosomeprofiling/ribograph)
+- RiboGraph (https://github.com/ribosomeprofiling/ribograph) VISUALISATION
 - RiboAnalyzer (https://github.com/sherkinglee/RiboAnalyzer)
-- RiboMIMO (https://doi.org/10.1371/journal.pcbi.1008842) (https://github.com/tiantz17/RiboMIMO)
-- RiboScore (James Keane) (https://github.com/keanejm/RiboScore)
-- RiboReport (https://github.com/RickGelhausen/RiboReport)
+- RiboMIMO (https://doi.org/10.1371/journal.pcbi.1008842) (https://github.com/tiantz17/RiboMIMO) ANALSYS
+- RiboScore (James Keane) (https://github.com/keanejm/RiboScore) QC
+- RiboReport (https://github.com/RickGelhausen/RiboReport) BENCHMARKING 
 - RiboFitter (https://github.com/TanenbaumLab/RiboFitter)
 - RiboSeeker (https://github.com/nzhang89/RiboSeeker)
-- HRIBO (https://github.com/RickGelhausen/HRIBO)
+- HRIBO (https://github.com/RickGelhausen/HRIBO) WORKFLOW
 - Ribo-Seq Simulation (https://github.com/eds35016/5-Ribo-seq-Modeling-Scripts)
-- DeepShape (https://github.com/cuihf06/DeepShape)
 - AltORFev (https://pubmed.ncbi.nlm.nih.gov/28039164/)
 - RCSU RS (https://doi.org/10.1093/dnares/dsw062)
 - ROSE - stalling (https://doi.org/10.1016/j.cels.2017.08.004)
