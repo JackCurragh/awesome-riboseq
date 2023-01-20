@@ -35,7 +35,7 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 | XPRESSpipe                    |  [Code](https://github.com/XPRESSyourself/XPRESSpipe/tree/main/xpresspipe)        |   [Reference](https://doi.org/10.1371/journal.pcbi.1007625)   | Written in Python, R & C++; End-to-end                                                                    |
 
 
-## Differential Translation
+## Differential Analysis
 | Tool                           | Code                                                                         | Reference                                                     | Note(s)                                                                           |
 | -------------                  | -------------                                                                | -------------                                                 | -------------                                                                     |
 | Anota2Seq                      |  [Code](https://bioconductor.org/packages/release/bioc/html/anota2seq.html)  |   [Reference](https://doi.org/10.1093/nar/gkz223)             | Written in R; Avaialble in Bioc                                                   |
@@ -44,7 +44,7 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 | Riborex                        |  [Code](https://github.com/smithlabcode/riborex)                             |   [Reference](https://doi.org/10.1093/bioinformatics/btx047)  | Written in R; Conda installation; DEseq2, EdgeR, Voom;                            |
 | RIVET                          |  [Code](https://github.com/ruggleslab/rivet)                                 |   [Reference](https://doi.org/10.1186/s12864-018-5166-z)      | Written in R; R Shiny app; Link defunct; EdgeR/Limma                              |
 | Xtail                          |  [Code](https://github.com/xryanglab/xtail)                                  |   [Reference](https://doi.org/10.1038/ncomms11194)            | Written in R; Available in DockerHub; Probability Distribution based              |
-
+| RiboDiPa                       |  [Code](https://github.com/jipingw/RiboDiPA)                                 |   [Reference](https://doi.org/10.1093/nar/gkaa1049)           | Written in R; Available in Bioc; Differential analysis of binned p-seq counts     |
 
 
 ## Quality Control
@@ -93,8 +93,9 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 | uORF4u                                    |  [Code](https://github.com/GCA-VH-lab/uorf4u)                             |   [Reference](https://doi.org/10.1101/2022.10.27.514069)          | Python; Not Ribo-Seq; Conservation based; One 5' UTR at a time                                        |
 | ORFLine                                   |  [Code](https://github.com/boboppie/ORFLine)                              |   [Reference](https://doi.org/10.1093/bioinformatics/btab339)     | Shell, R, Perl, Python; End-to-end; Plastid + ORFscore                                                |
 | RiboNT                                    |  [Code](https://github.com/songbo446/RiboNT/)                             |   [Reference](https://doi.org/10.3390/life11070701)               | Python; Noise tolerence                                                                               |
-
-|                                           |  [Code]()                                                                 |   [Reference]()                                                   |                                                                                                       |
+| Ribofy                                    |  [Code](https://github.com/ncrnalab/ribofy)                               |   None Found                                                      | Python; Statistical enrichment on inframe P-sites                                                     |
+| uORF_Annotator                            |  [Code]()                                                                 |   [Reference]()                                                   |                                                                                                       |
+|                                           |  [Code](https://github.com/bioinf/uORF_annotator)                         |   [Reference](https://doi.org/10.1093/nar/gkac1247)               | Python; Manually annotated training set; ORF and TIS prediction (according to paper)                  |
 
 
 ## ORF Databases
@@ -137,20 +138,17 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 #### Unsorted list:
 
 
-- Ribofy (https://github.com/ncrnalab/ribofy)
-- RiboDiPa
-- RiboMiner
+- RiboMiner (https://github.com/xryanglab/RiboMiner) ANALYSIS
 - RiboPlot (https://github.com/vimalkvn/riboplot)
-- PausePred
-- RUST 
-- RiboChat
+- RiboChat ANALYSIS
 - Riboconsensus (https://github.com/pechmannlab/riboconsensus)
 - RiboA (https://doi.org/10.1186/s12859-021-04068-w)
 - RiboPlotR
 - DeltaTE Detection of translationally regulated genes by integrative analysis of Ribo-seq and RNA-seq data. Current Protocols in Molecular Biology, 129, e108. doi.org/10.1002/cpmb.108
-- RiboShape (https://github.com/lulab/Riboshape)
-- RiboDoc (https://github.com/equipeGST/RiboDoc)
-- RiboLog (https://github.com/goodarzilab/Ribolog)
+- RiboShape (https://github.com/lulab/Riboshape) Impact of structure on translation
+
+- RiboDoc (https://github.com/equipeGST/RiboDoc) ANALYSIS
+- RiboLog (https://github.com/goodarzilab/Ribolog) ANALYSIS
 - RiboCalc (https://github.com/gao-lab/RiboCalc) (https://doi.org/10.1093/bib/bbab483)
 - RiboFootprintR (https://github.com/celalp/ribofootprintR)
 - mRibo (https://github.com/dgelsin/mRibo)
@@ -165,9 +163,17 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 - Ribo-Seq Simulation (https://github.com/eds35016/5-Ribo-seq-Modeling-Scripts)
 - AltORFev (https://pubmed.ncbi.nlm.nih.gov/28039164/)
 - RCSU RS (https://doi.org/10.1093/dnares/dsw062)
+
+
 - ROSE - stalling (https://doi.org/10.1016/j.cels.2017.08.004)
+- PausePred STALLING
+
+
 - RiboRL (https://github.com/Liuxg16/RiboRL)
-- Diricore (https://doi.org/10.1038/nature16982)
+
+
+- RUST 
+- Diricore (https://doi.org/10.1038/nature16982) DIFFIRENTIAL CODON TRANSLATION 
 
 
 
