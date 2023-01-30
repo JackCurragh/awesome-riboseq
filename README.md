@@ -178,7 +178,7 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 - Diricore (https://doi.org/10.1038/nature16982) DIFFIRENTIAL CODON TRANSLATION 
 
 
-
+- Ribo-DT (https://github.com/cgob/codonDT_snakemake)
 
 
 
