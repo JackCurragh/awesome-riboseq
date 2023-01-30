@@ -56,8 +56,11 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 | RiboQC                |  [Code](https://github.com/carinelegrand/RiboVIEW)    |  [Reference](https://doi.org/10.1093/nar/gkz1074)                         | Written in R; Part of RiboVIEW                                |
 | ribosomeProfilingQC   |  [Code](https://rdrr.io/bioc/ribosomeProfilingQC/)    |  [Reference](https://doi.org/10.18129/B9.bioc.ribosomeProfilingQC)        | Written in R; Available on Bioc; Reference in Bioc link       |
 | ORFikQC               |  [Code](https://github.com/Roleren/ORFik)             |  [Reference](https://doi.org/10.1186/s12859-021-04254-w)                  | Written in R; Available on Bioc; Part of ORFik                |
+| RiboScore             |  [Code](https://github.com/keanejm/RiboScore)         |   None                                                                    | Written in Python;                                            |
 
 Note: Many more tools carry out QC as part of their functionality. Above are those that have individual QC specific modules (that I have seen so far). 
+- RiboScore (James Keane) () QC
+
 
 ## Offset Determination
 | Tool                  | Code                                                                  | Reference                                                                     | Note(s)                                                       |
@@ -155,7 +158,6 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 - RiboGraph (https://github.com/ribosomeprofiling/ribograph) VISUALISATION
 - RiboAnalyzer (https://github.com/sherkinglee/RiboAnalyzer)
 - RiboMIMO (https://doi.org/10.1371/journal.pcbi.1008842) (https://github.com/tiantz17/RiboMIMO) ANALSYS
-- RiboScore (James Keane) (https://github.com/keanejm/RiboScore) QC
 - RiboReport (https://github.com/RickGelhausen/RiboReport) BENCHMARKING 
 - RiboFitter (https://github.com/TanenbaumLab/RiboFitter)
 - RiboSeeker (https://github.com/nzhang89/RiboSeeker)
