@@ -59,7 +59,6 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 | RiboScore             |  [Code](https://github.com/keanejm/RiboScore)         |   None                                                                    | Written in Python;                                            |
 
 Note: Many more tools carry out QC as part of their functionality. Above are those that have individual QC specific modules (that I have seen so far). 
-- RiboScore (James Keane) () QC
 
 
 ## Offset Determination
@@ -121,8 +120,10 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 | RPiso                 |  [Code](https://hub.docker.com/r/n26091225/rpiso)     |   [Reference](https://doi.org/10.1186%2Fs12859-021-04192-7)   | Perl; RSEM: Isoform level analysis                                            |
 | RiboZINB              |  [Code](https://github.com/Biobix/RiboZINB)           |   None Found                                                  | Perl, R; Identifying actively translated isoform                              |
 | DeepShape             |  [Code](https://github.com/cuihf06/DeepShape)         |   [Reference](https://doi.org/10.1186/s12859-019-3244-0)      | Python; RNA-Seq free Isoform level quantification                             |
+| RiboCalc              |  [Code](https://github.com/gao-lab/RiboCalc)          |   [Reference](https://doi.org/10.1093/bib/bbab483)            | R; quantitatively modeling of coding ability                                  |
 |                       |  [Code]()                                             |   [Reference]()                                               |                                                                               |
 
+- RiboCalc (https://github.com/gao-lab/RiboCalc) (https://doi.org/10.1093/bib/bbab483)
 
 
 ## Misc
@@ -152,7 +153,6 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 
 - RiboDoc (https://github.com/equipeGST/RiboDoc) ANALYSIS
 - RiboLog (https://github.com/goodarzilab/Ribolog) ANALYSIS
-- RiboCalc (https://github.com/gao-lab/RiboCalc) (https://doi.org/10.1093/bib/bbab483)
 - RiboFootprintR (https://github.com/celalp/ribofootprintR)
 - mRibo (https://github.com/dgelsin/mRibo)
 - RiboGraph (https://github.com/ribosomeprofiling/ribograph) VISUALISATION
