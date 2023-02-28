@@ -130,6 +130,7 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 | Tool                  | Code                                                  | Reference                                                 | Note(s)                                                       |
 | -------------         | -------------                                         | -------------                                             | -------------                                                 |
 | RFoot                 |  [Code](https://github.com/zhejilab/Rfoot/)           |   [Reference](https://doi.org/10.1002%2Fcpmb.66)          | Perl; Finding RNA-Protein complexes from Ribo-Seq             |
+| choros                |  [Code](https://github.com/lareaulab/choros)          |   [Reference](https://doi.org/10.1101/2023.02.21.529452)  | R; Estimate and Correct Sequence Bias in Ribo-Seq             |
 |                       |  [Code]()                                             |   [Reference]()                                             |                                                             |
 
 
