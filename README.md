@@ -25,15 +25,25 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 | RiboProfiling                 |  [Code](https://bioconductor.org/packages/release/bioc/html/RiboProfiling.html)   |   [Reference](https://doi.org/10.12688/f1000research.8964.1)  | Written in R; Available on Bioc; Analysis Package                                                         |
 | SystemPipeR                   |  [Code](https://bioconductor.org/packages/release/bioc/html/systemPipeR.html)     |   [Reference](https://doi.org/10.1186/s12859-016-1241-0)      | Written in R; Available on Bioc; End-to-end                                                               |
 | RiboStreamR                   |  [Code](https://github.com/pjperki2/riboStreamR)                                  |   [Reference](https://doi.org/10.1186/s12864-019-5700-7)      | Written in R; Available as web app                                                                        |
-| RiboSeqR                      |  [Code](https://bioconductor.org/packages/release/bioc/html/riboSeqR.html)        |   [Reference]()                                               | Written in R; Available in Bioc; Analysis and visualisation                                               |
-| RiboPip                       |  [Code](https://github.com/stepf/RiboPip)                                         |   [Reference]()                                               | Written in Ruby; Comes with Dockfile; End-to-end                                                          |
+| RiboSeqR                      |  [Code](https://bioconductor.org/packages/release/bioc/html/riboSeqR.html)        |   None                                                        | Written in R; Available in Bioc; Analysis and visualisation                                               |
+| RiboPip                       |  [Code](https://github.com/stepf/RiboPip)                                         |   None                                                        | Written in Ruby; Comes with Dockfile; End-to-end                                                          |
 | RiboGalaxy                    |  [Code](https://github.com/riboseqorg/RiboGalaxy)                                 |   [Reference](https://doi.org/10.1080/15476286.2016.1141862)  | Galaxy Platform; Tools in toolshed; Data Processing; [Link](https://ribogalaxy.genomicsdatascience.ie/)   |
 | Plastid                       |  [Code](https://github.com/joshuagryphon/plastid)                                 |   [Reference](https://doi.org/10.1186/s12864-016-3278-x)      | Written in Python; Packaged on PyPi; Analysis                                                             |
 | RiboTools                     |  [Code]()                                                                         |   [Reference](https://doi.org/10.1093/bioinformatics/btv174)  | Galaxy Platform; Tools in toolshed; Analysis                                                              |
 | RiboFlow, RiboR and RiboPy    |  [Code](https://github.com/ribosomeprofiling)                                     |   [Reference](https://doi.org/10.1093/bioinformatics/btaa028) | Ecosystem of tools; Nextflow (DSL1), R and Python; End-to-end                                             |
 | RiboToolKit                   |  [Code]()                                                                         |   [Reference](https://doi.org/10.1093/nar/gkaa395)            | Browser only; End-to-end; [Link](http://rnainformatics.org.cn/RiboToolkit/)                               |
 | XPRESSpipe                    |  [Code](https://github.com/XPRESSyourself/XPRESSpipe/tree/main/xpresspipe)        |   [Reference](https://doi.org/10.1371/journal.pcbi.1007625)   | Written in Python, R & C++; End-to-end                                                                    |
+| Ohler-Lab Pipeline            |  [Code](https://github.com/ohlerlab/Riboseq_Pipeline)                             |   None                                                        | Not a published pipeline; R; Shell; ORFquant; RiboseQC                                                    |
+| Bushell-Lab Pipeline          |  [Code](https://github.com/Bushell-lab/Ribo-seq)                                  |   None                                                        | Not a published pipeline; R; Shell; End-to-end                                                            |
+| Saket Choudhary Pipeline      |  [Code](https://github.com/saketkc/ribo-seq-snakemake)                            |   None                                                        | Not a published pipeline; Snakemake; STAR; RSEM                                                           |
+| Firth Lab Ribo-Seq Manual     |  [Code](https://github.com/AndrewFirth12/RiboseqAnalysis)                         |   None                                                        | Not a published pipeline; Tutorial; Shell                                                                 |
+| USA FDA Ribo-Seq Pipeline     |  [Code](https://github.com/FDA/Ribosome-Profiling)                                |   None                                                        | Not a published pipeline; Python; HISAT                                                                   |
+| scRibo-Seq paper              |  [Code](https://github.com/mvanins/scRiboSeq_manuscript)                          |   [Reference](https://doi.org/10.1038/s41586-021-03887-4)     | Publication  Code; Nextflow; R for figures                                                                |
+| STATR                         |  [Code](https://github.com/robinald/STATR)                                        |   [Reference](https://doi.org/10.1007/s12275-020-9536-2)      | Bacterial Ribo-Seq pipeline; Shell; Python; R                                                             |
+|                               |  [Code]()                                                                         |   [Reference]()                                               |                                                                                                           |
+|                               |  [Code]()                                                                         |   [Reference]()                                               |                                                                                                           |
 
+- STATR (pipeline) [Link](https://doi.org/10.1007/s12275-020-9536-2)
 
 ## Differential Analysis
 | Tool                           | Code                                                                         | Reference                                                     | Note(s)                                                                           |
@@ -182,20 +192,12 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 - Ribo-DT (https://github.com/cgob/codonDT_snakemake)
 
 
-
-
-
 - Concur (codon occupancy) [Link](https://doi.org/10.1093/bioinformatics/btaa733)
 
-- STATR (pipeline) [Link](https://doi.org/10.1007/s12275-020-9536-2)
 
 
-- Bushell-Lab Pipeline (https://github.com/Bushell-lab/Ribo-seq)
-- Ohler-Lab Pipeline (https://github.com/ohlerlab/Riboseq_Pipeline)
-- Saket Choudhary Pipeline (https://github.com/saketkc/ribo-seq-snakemake)
-- Firth Lab Ribo-Seq Manual (https://github.com/AndrewFirth12/RiboseqAnalysis)
-
-- Code for scRibo-Seq paper (https://github.com/mvanins/scRiboSeq_manuscript)
 
 
-- USA's Food and Drug Administrations Ribo-Seq (https://github.com/FDA/Ribosome-Profiling)
+
+
+
