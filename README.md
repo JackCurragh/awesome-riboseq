@@ -40,8 +40,8 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 | USA FDA Ribo-Seq Pipeline     |  [Code](https://github.com/FDA/Ribosome-Profiling)                                |   None                                                        | Not a published pipeline; Python; HISAT                                                                   |
 | scRibo-Seq paper              |  [Code](https://github.com/mvanins/scRiboSeq_manuscript)                          |   [Reference](https://doi.org/10.1038/s41586-021-03887-4)     | Publication  Code; Nextflow; R for figures                                                                |
 | STATR                         |  [Code](https://github.com/robinald/STATR)                                        |   [Reference](https://doi.org/10.1007/s12275-020-9536-2)      | Bacterial Ribo-Seq pipeline; Shell; Python; R                                                             |
-|                               |  [Code]()                                                                         |   [Reference]()                                               |                                                                                                           |
-|                               |  [Code]()                                                                         |   [Reference]()                                               |                                                                                                           |
+| Ribomake                      |  [Code]https://github.com/nzhang89/Ribomake)                                      |   [Reference]()                                               | Ribo-Seq Data Processing; Snakemake; Paired with RiboSeeker                                               |
+| RiboSeeker                    |  [Code](https://github.com/nzhang89/RiboSeeker)                                   |   [Reference]()                                               | Downstream Analysis; R; Paired with Ribomake                                                              |
 
 - STATR (pipeline) [Link](https://doi.org/10.1007/s12275-020-9536-2)
 
@@ -106,8 +106,8 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 | ORFLine                                   |  [Code](https://github.com/boboppie/ORFLine)                              |   [Reference](https://doi.org/10.1093/bioinformatics/btab339)     | Shell, R, Perl, Python; End-to-end; Plastid + ORFscore                                                |
 | RiboNT                                    |  [Code](https://github.com/songbo446/RiboNT/)                             |   [Reference](https://doi.org/10.3390/life11070701)               | Python; Noise tolerence                                                                               |
 | Ribofy                                    |  [Code](https://github.com/ncrnalab/ribofy)                               |   None Found                                                      | Python; Statistical enrichment on inframe P-sites                                                     |
-| uORF_Annotator                            |  [Code]()                                                                 |   [Reference]()                                                   |                                                                                                       |
-|                                           |  [Code](https://github.com/bioinf/uORF_annotator)                         |   [Reference](https://doi.org/10.1093/nar/gkac1247)               | Python; Manually annotated training set; ORF and TIS prediction (according to paper)                  |
+| HRIBO                                     |  [Code](https://github.com/RickGelhausen/HRIBO)                           |   [Reference](https://doi.org/10.1093/bioinformatics/btaa959)     | Snakemake; Bacterial ORF Detection; DeepRibo; REPARATION                                              |
+| uORF_Annotator                            |  [Code](https://github.com/bioinf/uORF_annotator)                         |   [Reference](https://doi.org/10.1093/nar/gkac1247)               | Python; Manually annotated training set; ORF and TIS prediction (according to paper)                  |
 
 
 ## ORF Databases
@@ -141,38 +141,33 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 | -------------         | -------------                                         | -------------                                             | -------------                                                 |
 | RFoot                 |  [Code](https://github.com/zhejilab/Rfoot/)           |   [Reference](https://doi.org/10.1002%2Fcpmb.66)          | Perl; Finding RNA-Protein complexes from Ribo-Seq             |
 | choros                |  [Code](https://github.com/lareaulab/choros)          |   [Reference](https://doi.org/10.1101/2023.02.21.529452)  | R; Estimate and Correct Sequence Bias in Ribo-Seq             |
+| RiboReport            |  [Code](https://github.com/RickGelhausen/RiboReport)  |   [Reference](https://doi.org/10.1093/bib/bbab549)        | Snakemake; Bacterial ORF detection Benchmarking               |
 |                       |  [Code]()                                             |   [Reference]()                                             |                                                             |
 
-
-## Rough 
-
-**Row template:**
-|                       |  [Code]()                                             |   [Reference]()                                             |                                                             |
 
 
 #### Unsorted list:
 
 
 - RiboMiner (https://github.com/xryanglab/RiboMiner) ANALYSIS
-- RiboPlot (https://github.com/vimalkvn/riboplot)
-- RiboChat ANALYSIS
 - Riboconsensus (https://github.com/pechmannlab/riboconsensus)
 - RiboA (https://doi.org/10.1186/s12859-021-04068-w)
+
+
+- RiboPlot (https://github.com/vimalkvn/riboplot)
 - RiboPlotR
+- RiboGraph (https://github.com/ribosomeprofiling/ribograph) VISUALISATION
+
 - DeltaTE Detection of translationally regulated genes by integrative analysis of Ribo-seq and RNA-seq data. Current Protocols in Molecular Biology, 129, e108. doi.org/10.1002/cpmb.108
 - RiboShape (https://github.com/lulab/Riboshape) Impact of structure on translation
 
 - RiboDoc (https://github.com/equipeGST/RiboDoc) ANALYSIS
 - RiboLog (https://github.com/goodarzilab/Ribolog) ANALYSIS
+- RiboMIMO (https://doi.org/10.1371/journal.pcbi.1008842) (https://github.com/tiantz17/RiboMIMO) ANALSYS
+
+
 - RiboFootprintR (https://github.com/celalp/ribofootprintR)
 - mRibo (https://github.com/dgelsin/mRibo)
-- RiboGraph (https://github.com/ribosomeprofiling/ribograph) VISUALISATION
-- RiboAnalyzer (https://github.com/sherkinglee/RiboAnalyzer)
-- RiboMIMO (https://doi.org/10.1371/journal.pcbi.1008842) (https://github.com/tiantz17/RiboMIMO) ANALSYS
-- RiboReport (https://github.com/RickGelhausen/RiboReport) BENCHMARKING 
-- RiboFitter (https://github.com/TanenbaumLab/RiboFitter)
-- RiboSeeker (https://github.com/nzhang89/RiboSeeker)
-- HRIBO (https://github.com/RickGelhausen/HRIBO) WORKFLOW
 - Ribo-Seq Simulation (https://github.com/eds35016/5-Ribo-seq-Modeling-Scripts)
 - AltORFev (https://pubmed.ncbi.nlm.nih.gov/28039164/)
 - RCSU RS (https://doi.org/10.1093/dnares/dsw062)
@@ -183,15 +178,9 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 
 
 - RiboRL (https://github.com/Liuxg16/RiboRL)
-
-
 - RUST 
 - Diricore (https://doi.org/10.1038/nature16982) DIFFIRENTIAL CODON TRANSLATION 
-
-
 - Ribo-DT (https://github.com/cgob/codonDT_snakemake)
-
-
 - Concur (codon occupancy) [Link](https://doi.org/10.1093/bioinformatics/btaa733)
 
 
