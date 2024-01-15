@@ -108,7 +108,7 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 | Ribofy                                    |  [Code](https://github.com/ncrnalab/ribofy)                               |   None Found                                                      | Python; Statistical enrichment on inframe P-sites                                                     |
 | HRIBO                                     |  [Code](https://github.com/RickGelhausen/HRIBO)                           |   [Reference](https://doi.org/10.1093/bioinformatics/btaa959)     | Snakemake; Bacterial ORF Detection; DeepRibo; REPARATION                                              |
 | uORF_Annotator                            |  [Code](https://github.com/bioinf/uORF_annotator)                         |   [Reference](https://doi.org/10.1093/nar/gkac1247)               | Python; Manually annotated training set; ORF and TIS prediction (according to paper)                  |
-
+| iRibo                                     |  [Code](https://github.com/CarvunisLab/iRibo)                             |   [Reference](https://doi.org/10.1016/j.xpro.2023.102826)         | C++; Binomial test for three nucleotide; Empirical false discovery rate; Aggregated data periodicity                  |
 
 ## ORF Databases
 | Tool                  | Link                                                                  | Reference                                                 | Note(s)                                                       |
