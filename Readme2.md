@@ -1,1 +1,0 @@
-| iRibo                                     |  [Code](https://github.com/CarvunisLab/iRibo)                             |   [Reference](https://doi.org/10.1016/j.xpro.2023.102826)         | C++; Binomial test for three nucleotide; Empirical false discovery rate; Aggregated data periodicity                  |
