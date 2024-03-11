@@ -21,16 +21,6 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 | RiboGraph             |  [Code](https://github.com/ribosomeprofiling/ribograph)                   |   [Reference](https://doi.org/10.1101%2F2024.01.11.575228)| Docker image; Endpoint for RiboPy                                 |
 
 
-
-| TranslatomeDB         |  [Code]()                                                                 |   [Reference](https://doi.org/10.1093/nar/gkx1034)        | Transcriptome aligned with FANSe3; [Link](http://translatomedb.net/) |
-| svist4get             |  [Code](https://github.com/art-egorov/svist4get)                          |   [Reference](https://doi.org/10.1186/s12859-019-2706-8)  | Command line app; Genomic                                   |       
-| RiboPlot              |  [Code](https://github.com/vimalkvn/riboplot)                             |   [Reference]()                                           | Python; Archived                                                  |
-| RiboPlotR             |  [Code](https://github.com/hsinyenwu/RiboPlotR)                           |   [Reference](https://doi.org/10.1186/s13007-021-00824-4) | R; Similar transcript plotting to RiboCrypt (w/ multiple isoforms)|
-| RiboGraph             |  [Code](https://github.com/ribosomeprofiling/ribograph)                   |   [Reference](https://doi.org/10.1101%2F2024.01.11.575228)| Docker image; Endpoint for RiboPy                                 |
-
-
-
-
 ## Data Processing and Analysis
 | Tool                          | Code                                                                              | Reference                                                     | Note(s)                                                                                                   |
 | -------------                 | -------------                                                                     | -------------                                                 | -------------                                                                                             |
@@ -67,17 +57,6 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 
 
 
-| Riboconsensus                 |  [Code](https://github.com/pechmannlab/riboconsensus)                             |   [Reference](https://doi.org/10.1111/febs.15748)             | Python; Translation Heterogeneity                             |
-| RiboDoc                       |  [Code](https://github.com/equipeGST/RiboDoc)                                     |   [Reference](https://doi.org/10.1016/j.csbj.2021.05.014)     | Docker; R; Image for end-to-end ribo-seq analysis |
-| RiboLog                       |  [Code](https://github.com/goodarzilab/Ribolog)                                   |   [Reference](https://doi.org/10.1038/s41556-023-01141-9)     | R; Regression based tools for Ribo-Seq analysis Heterogeneity                             |
-| RiboFootprintR                |  [Code](https://github.com/celalp/ribofootprintR)                                 |   [Reference]()                                               | R; Pipeline for data processing                                |
-| RibofootPrinter               |  [Code](https://github.com/guydoshlab/ribofootPrinter)                            |   [Reference](https://doi.org/10.1101/2021.07.04.451082)      | Python; Toolbox for data analysis;                          |
-| MassiveNGSPipe                |  [Code](https://github.com/rc-biotech/massiveNGSpipe)                             |   [Reference]()                                               | R; Fully automated end to end data processing; RiboCrypt data processing       |
-| mRibo                         |  [Code](https://github.com/dgelsin/mRibo)                                         |   [Reference](https://doi.org/10.1093/nar/gkaa304)            | Python; meta-gene analysis on microbial (Bacteria and Archaea) data       |
-
-
-
-
 ## Differential Analysis
 | Tool                           | Code                                                                         | Reference                                                     | Note(s)                                                                           |
 | -------------                  | -------------                                                                | -------------                                                 | -------------                                                                     |
@@ -88,16 +67,11 @@ A list of bioinformatic tools for working with Ribo-Seq data. Please feel free t
 | RIVET                          |  [Code](https://github.com/ruggleslab/rivet)                                 |   [Reference](https://doi.org/10.1186/s12864-018-5166-z)      | Written in R; R Shiny app; Link defunct; EdgeR/Limma                              |
 | Xtail                          |  [Code](https://github.com/xryanglab/xtail)                                  |   [Reference](https://doi.org/10.1038/ncomms11194)            | Written in R; Available in DockerHub; Probability Distribution based              |
 | RiboDiPa                       |  [Code](https://github.com/jipingw/RiboDiPA)                                 |   [Reference](https://doi.org/10.1093/nar/gkaa1049)           | Written in R; Available in Bioc; Differential analysis of binned p-seq counts     |
-| DeltaTE                           |  [Code](https://github.com/SGDDNB/translational_regulation)               |   [Reference](https://doi.org/10.1002/cpmb.108)               | Written in R; Differential analysis; DESeq2 |
-| DeltaTE                           |  [Code](https://github.com/SGDDNB/translational_regulation)               |   [Reference](https://doi.org/10.1002/cpmb.108)               | Written in R; Differential analysis; DESeq2 |
+| DeltaTE                        |  [Code](https://github.com/SGDDNB/translational_regulation)                  |   [Reference](https://doi.org/10.1002/cpmb.108)               | Written in R; Differential analysis; DESeq2 |
 
 
 ## Quality Control
 
-| Tool                  | Code                                                  | Reference                                                                 | Note(s)                                                       |
-| -------------         | -------------                                         | -------------                                                             | -------------                                                 |
-| MQc                   |  [Code](https://github.com/Biobix/mQC)                |  [Reference](https://doi.org/10.1016/j.cmpb.2018.10.018)                  | Written in Perl, Python 2, R; Available on Galaxy and Conda   |
-| Ribo-seQC             |  [Code](https://github.com/ohlerlab/RiboseQC)         |  [Reference](https://doi.org/10.1101/601468)                              | Written in R                                                  |
 | Tool                  | Code                                                  | Reference                                                                 | Note(s)                                                       |
 | -------------         | -------------                                         | -------------                                                             | -------------                                                 |
 | MQc                   |  [Code](https://github.com/Biobix/mQC)                |  [Reference](https://doi.org/10.1016/j.cmpb.2018.10.018)                  | Written in Perl, Python 2, R; Available on Galaxy and Conda   |
@@ -119,11 +93,6 @@ Note: Many more tools carry out QC as part of their functionality. Above are tho
 | Integer Programming   |  [Code](https://github.com/nabeel-bioinfo/Asite_IP_method)            |   [Reference](https://doi.org/10.1038/s41598-019-42348-x)                     | Written in Python; Paper contains comparison of methods       |
 | Scikit-ribo           |  [Code](https://github.com/hanfang/scikit-ribo)                       |   [Reference](https://doi.org/10.1016/j.cels.2017.12.007)                     | Written in Python; Also estiamtes translation efficiency      |
 | RiboA                 |  [Code](https://github.com/obrien-lab/aip_web_docker)                 |   [Reference](https://doi.org/10.1186/s12859-021-04068-w)                     | Written in Python; Django app in docker image; GUI for Integer Programming method above      |
-
-
-| RiboA                 |  [Code](https://github.com/obrien-lab/aip_web_docker)                 |   [Reference](https://doi.org/10.1186/s12859-021-04068-w)                     | Written in Python; Django app in docker image; GUI for Integer Programming method above      |
-
-
 
 Note: Many many tools carry out offset determinations. These ones advertise it as a main feature.
 
@@ -211,7 +180,6 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 | Tool                  | Code                                                                  | Reference                                                                 | Note(s)                                                                           |
 | -------------         | -------------                                                         | -------------                                                             | -------------                                                                     |
 | ORFeus                |  [Code](https://github.com/morichardson/ORFeus)                       |   [Reference](https://doi.org/10.1186/s12859-023-05602-8)                 | Python; HMM; detects many different alt-ORF types    |
-| PRfect                |  [Code](https://github.com/deprekate/prfect)                          |   [Reference](https://doi.org/10.1186/s12859-024-05701-0)                 | Python; Annotation file candidate detection          |
 
 
 ## Misc
