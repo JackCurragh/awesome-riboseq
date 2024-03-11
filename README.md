@@ -158,14 +158,6 @@ Note: Many many tools carry out offset determinations. These ones advertise it a
 | AltORFev                                  |  [Code]()                                                                 |   [Reference](https://doi.org/10.1093/bioinformatics/btw736)      | No Code & web app broken - scanning based mechanism of ORF prediction                  |
 
 
-- AltORFev (https://pubmed.ncbi.nlm.nih.gov/28039164/) ORF CALLING - No Code & web app broken - scanning based mechanism of ORF prediction 
-| ORFScore                                  |  [Code]()                                                                 |   [Reference](https://doi.org/10.1002%2Fembj.201488411)           | # in-frame reads; Comparison to uniform dist                 |
-| AltORFev                                  |  [Code]()                                                                 |   [Reference](https://doi.org/10.1093/bioinformatics/btw736)      | No Code & web app broken - scanning based mechanism of ORF prediction                  |
-
-
-- AltORFev (https://pubmed.ncbi.nlm.nih.gov/28039164/) ORF CALLING - No Code & web app broken - scanning based mechanism of ORF prediction 
-
-
 ## ORF Databases
 | Tool                  | Link                                                                  | Reference                                                 | Note(s)                                                       |
 | -------------         | -------------                                                         | -------------                                             | -------------                                                 |
