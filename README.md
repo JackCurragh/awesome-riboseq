@@ -2,6 +2,23 @@
 A list of bioinformatic tools for working with Ribo-Seq data. Please feel free to make updates 
 (a work in progress)
 
+## Table of Contents
+
+## Table of Contents
+
+- [Data Resources and Visualisation Environments](#data-resources-and-visualisation-environments)
+- [Data Processing and Analysis](#data-processing-and-analysis)
+- [Differential Analysis](#differential-analysis)
+- [Quality Control](#quality-control)
+- [Offset Determination](#offset-determination)
+- [ORF Calling](#orf-calling)
+- [ORF Databases](#orf-databases)
+- [Isoform Level Analysis](#isoform-level-analysis)
+- [Ribo-Seq Simulation](#ribo-seq-simulation)
+- [Occupancy Analysis](#occupancy-analysis)
+- [Pause Prediction](#pause-prediction)
+- [Frameshift Detection](#frameshift-detection)
+- [Misc](#misc)
 
 
 ## Data Resources and Visualisation Environments 
